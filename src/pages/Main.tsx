@@ -1,20 +1,11 @@
-import { useState } from 'react';
-import { MainLayout } from '../layouts/MainLayout';
+import { TransferSection } from 'sections/TransferSection';
 import { AddressSection } from '../sections/Address';
-import { EndpointSection } from '../sections/Endpoint';
-import { SendSection } from '../sections/SendSection';
-import { EndpointType } from '../types/endpoint';
-export function MainPage() {
-  const [endpoint, setEndpoint] = useState<EndpointType | undefined>();
-  const endpointState = { endpoint, setEndpoint };
 
+export function MainPage() {
   return (
     <>
       <AddressSection />
-      <EndpointSection {...endpointState} />
-      {endpoint && <SendSection />}
+      <TransferSection />
     </>
   );
 }
-
-MainPage.Layout = MainLayout;

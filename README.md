@@ -5,26 +5,7 @@ Dongrami is a web application that allows you to sign transactions with your key
 > **Warning**  
 > This application is still in development, and is not ready for production use. Use at your own risk.
 
-> **Warning**  
-> This application uses [@planetarium/account-web](https://github.com/planetarium/sphere/tree/account-web/packages/account-web) to load keystore files. This library is not yet published and needed to be built locally.
-
 ## How to run
-
-### Build [@planetarium/account-web](https://github.com/planetarium/sphere/tree/account-web/packages/account-web)
-
-```shell
-git clone https://github.com/planetarium/sphere
-cd sphere
-git checkout account-web
-yarn install
-yarn build
-```
-
-### Link [@planetarium/account-web](https://github.com/planetarium/sphere/tree/account-web/packages/account-web) to this project
-
-```shell
-sed -i s|../sphere/packages/account-web|${LOCATION_TO_ACCOUNT_WEB_PACKAGE}|g package.json
-```
 
 ### Run in development mode
 

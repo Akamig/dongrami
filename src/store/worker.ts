@@ -1,21 +1,21 @@
 import { create } from 'zustand';
 import { devtools } from 'zustand/middleware';
 
-type MainState = {
+type WorkerState = {
   worker: Worker | null;
   mutations: {
     setWorker: (worker: Worker) => void;
   };
 };
 
-const store = devtools<MainState>((set) => ({
+const store = devtools<WorkerState>((set) => ({
   worker: null,
   mutations: {
     setWorker: (worker) => set((state) => ({ ...state, worker })),
   },
 }));
 
-const useWorkerStore = create<MainState>()(store);
+const useWorkerStore = create<WorkerState>()(store);
 
 export const useWorker = () => useWorkerStore((state) => state.worker);
 export const useWorkerMutations = () =>

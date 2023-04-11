@@ -1,4 +1,6 @@
-import { AuthenticatePage } from './authenticate';
-import { ErrorPage } from './error';
+import { AuthenticatePage } from './Authenticate';
+import { ErrorPage } from './Error';
+import { MainPage } from './Main';
+import { UnlockPage } from './Unlock';
 
-export { AuthenticatePage, ErrorPage };
+export { AuthenticatePage, ErrorPage, MainPage, UnlockPage };

@@ -1,0 +1,1713 @@
+{
+  "activate_account2": {
+    "pendingAddress": "Address",
+    "signature": "Uint8Array"
+  },
+  "activate_account": {
+    "pendingAddress": "Address",
+    "signature": "Uint8Array"
+  },
+  "add_activated_account2": {
+    "address": "Address"
+  },
+  "add_activated_account": {
+    "address": "Address"
+  },
+  "add_redeem_code": {
+    "redeemCsv": "string"
+  },
+  "battle_arena9": {
+    "myAvatarAddress": "Address",
+    "enemyAvatarAddress": "Address",
+    "championshipId": "number",
+    "round": "number",
+    "ticket": "number",
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "runeInfos": {
+      "slotIndex": "number",
+      "runeId": "number",
+      "__array": true
+    }
+  },
+  "battle_arena": {
+    "myAvatarAddress": "Address",
+    "enemyAvatarAddress": "Address",
+    "championshipId": "number",
+    "round": "number",
+    "ticket": "number",
+    "costumes": "Guid[]",
+    "equipments": "Guid[]"
+  },
+  "battle_arena2": {
+    "myAvatarAddress": "Address",
+    "enemyAvatarAddress": "Address",
+    "championshipId": "number",
+    "round": "number",
+    "ticket": "number",
+    "costumes": "Guid[]",
+    "equipments": "Guid[]"
+  },
+  "battle_arena3": {
+    "myAvatarAddress": "Address",
+    "enemyAvatarAddress": "Address",
+    "championshipId": "number",
+    "round": "number",
+    "ticket": "number",
+    "costumes": "Guid[]",
+    "equipments": "Guid[]"
+  },
+  "battle_arena4": {
+    "myAvatarAddress": "Address",
+    "enemyAvatarAddress": "Address",
+    "championshipId": "number",
+    "round": "number",
+    "ticket": "number",
+    "costumes": "Guid[]",
+    "equipments": "Guid[]"
+  },
+  "battle_arena5": {
+    "myAvatarAddress": "Address",
+    "enemyAvatarAddress": "Address",
+    "championshipId": "number",
+    "round": "number",
+    "ticket": "number",
+    "costumes": "Guid[]",
+    "equipments": "Guid[]"
+  },
+  "battle_arena6": {
+    "myAvatarAddress": "Address",
+    "enemyAvatarAddress": "Address",
+    "championshipId": "number",
+    "round": "number",
+    "ticket": "number",
+    "costumes": "Guid[]",
+    "equipments": "Guid[]"
+  },
+  "battle_arena7": {
+    "myAvatarAddress": "Address",
+    "enemyAvatarAddress": "Address",
+    "championshipId": "number",
+    "round": "number",
+    "ticket": "number",
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "runeInfos": {
+      "slotIndex": "number",
+      "runeId": "number",
+      "__array": true
+    }
+  },
+  "battle_arena8": {
+    "myAvatarAddress": "Address",
+    "enemyAvatarAddress": "Address",
+    "championshipId": "number",
+    "round": "number",
+    "ticket": "number",
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "runeInfos": {
+      "slotIndex": "number",
+      "runeId": "number",
+      "__array": true
+    }
+  },
+  "battle_grand_finale2": {
+    "myAvatarAddress": "Address",
+    "enemyAvatarAddress": "Address",
+    "grandFinaleId": "number",
+    "costumes": "Guid[]",
+    "equipments": "Guid[]"
+  },
+  "battle_grand_finale": {
+    "myAvatarAddress": "Address",
+    "enemyAvatarAddress": "Address",
+    "grandFinaleId": "number",
+    "costumes": "Guid[]",
+    "equipments": "Guid[]"
+  },
+  "buy12": {
+    "purchaseInfos": {
+      "orderId": "Guid",
+      "tradableId": "Guid",
+      "agentAddress": "Address",
+      "avatarAddress": "Address",
+      "type": "\"Food\" | \"FullCostume\" | \"HairCostume\" | \"EarCostume\" | \"EyeCostume\" | \"TailCostume\" | \"Weapon\" | \"Armor\" | \"Belt\" | \"Necklace\" | \"Ring\" | \"EquipmentMaterial\" | \"FoodMaterial\" | \"MonsterPart\" | \"NormalMaterial\" | \"Hourglass\" | \"ApStone\" | \"Chest\" | \"Title\"",
+      "itemPrice": {
+        "currency": "Currency",
+        "sign": "number",
+        "majorUnit": "string",
+        "minorUnit": "string"
+      },
+      "__array": true
+    }
+  },
+  "buy": {
+    "buyerAvatarAddress": "Address",
+    "sellerAgentAddress": "Address",
+    "sellerAvatarAddress": "Address",
+    "productId": "Guid"
+  },
+  "buy10": {
+    "purchaseInfos": {
+      "orderId": "Guid",
+      "tradableId": "Guid",
+      "agentAddress": "Address",
+      "avatarAddress": "Address",
+      "type": "\"Food\" | \"FullCostume\" | \"HairCostume\" | \"EarCostume\" | \"EyeCostume\" | \"TailCostume\" | \"Weapon\" | \"Armor\" | \"Belt\" | \"Necklace\" | \"Ring\" | \"EquipmentMaterial\" | \"FoodMaterial\" | \"MonsterPart\" | \"NormalMaterial\" | \"Hourglass\" | \"ApStone\" | \"Chest\" | \"Title\"",
+      "itemPrice": {
+        "currency": "Currency",
+        "sign": "number",
+        "majorUnit": "string",
+        "minorUnit": "string"
+      },
+      "__array": true
+    }
+  },
+  "buy11": {
+    "purchaseInfos": {
+      "orderId": "Guid",
+      "tradableId": "Guid",
+      "agentAddress": "Address",
+      "avatarAddress": "Address",
+      "type": "\"Food\" | \"FullCostume\" | \"HairCostume\" | \"EarCostume\" | \"EyeCostume\" | \"TailCostume\" | \"Weapon\" | \"Armor\" | \"Belt\" | \"Necklace\" | \"Ring\" | \"EquipmentMaterial\" | \"FoodMaterial\" | \"MonsterPart\" | \"NormalMaterial\" | \"Hourglass\" | \"ApStone\" | \"Chest\" | \"Title\"",
+      "itemPrice": {
+        "currency": "Currency",
+        "sign": "number",
+        "majorUnit": "string",
+        "minorUnit": "string"
+      },
+      "__array": true
+    }
+  },
+  "buy2": {
+    "buyerAvatarAddress": "Address",
+    "sellerAgentAddress": "Address",
+    "sellerAvatarAddress": "Address",
+    "productId": "Guid"
+  },
+  "buy3": {
+    "buyerAvatarAddress": "Address",
+    "sellerAgentAddress": "Address",
+    "sellerAvatarAddress": "Address",
+    "productId": "Guid"
+  },
+  "buy4": {
+    "buyerAvatarAddress": "Address",
+    "sellerAgentAddress": "Address",
+    "sellerAvatarAddress": "Address",
+    "productId": "Guid"
+  },
+  "buy5": {
+    "purchaseInfos": {
+      "id": "Guid",
+      "agentAddress": "Address",
+      "avatarAddress": "Address",
+      "type": "\"Food\" | \"FullCostume\" | \"HairCostume\" | \"EarCostume\" | \"EyeCostume\" | \"TailCostume\" | \"Weapon\" | \"Armor\" | \"Belt\" | \"Necklace\" | \"Ring\" | \"EquipmentMaterial\" | \"FoodMaterial\" | \"MonsterPart\" | \"NormalMaterial\" | \"Hourglass\" | \"ApStone\" | \"Chest\" | \"Title\"",
+      "itemPrice": {
+        "currency": "Currency",
+        "sign": "number",
+        "majorUnit": "string",
+        "minorUnit": "string"
+      },
+      "__array": true
+    }
+  },
+  "buy6": {
+    "purchaseInfos": {
+      "id": "Guid",
+      "agentAddress": "Address",
+      "avatarAddress": "Address",
+      "type": "\"Food\" | \"FullCostume\" | \"HairCostume\" | \"EarCostume\" | \"EyeCostume\" | \"TailCostume\" | \"Weapon\" | \"Armor\" | \"Belt\" | \"Necklace\" | \"Ring\" | \"EquipmentMaterial\" | \"FoodMaterial\" | \"MonsterPart\" | \"NormalMaterial\" | \"Hourglass\" | \"ApStone\" | \"Chest\" | \"Title\"",
+      "itemPrice": {
+        "currency": "Currency",
+        "sign": "number",
+        "majorUnit": "string",
+        "minorUnit": "string"
+      },
+      "__array": true
+    }
+  },
+  "buy7": {
+    "purchaseInfos": {
+      "id": "Guid",
+      "agentAddress": "Address",
+      "avatarAddress": "Address",
+      "type": "\"Food\" | \"FullCostume\" | \"HairCostume\" | \"EarCostume\" | \"EyeCostume\" | \"TailCostume\" | \"Weapon\" | \"Armor\" | \"Belt\" | \"Necklace\" | \"Ring\" | \"EquipmentMaterial\" | \"FoodMaterial\" | \"MonsterPart\" | \"NormalMaterial\" | \"Hourglass\" | \"ApStone\" | \"Chest\" | \"Title\"",
+      "itemPrice": {
+        "currency": "Currency",
+        "sign": "number",
+        "majorUnit": "string",
+        "minorUnit": "string"
+      },
+      "__array": true
+    }
+  },
+  "buy8": {
+    "purchaseInfos": {
+      "orderId": "Guid",
+      "tradableId": "Guid",
+      "agentAddress": "Address",
+      "avatarAddress": "Address",
+      "type": "\"Food\" | \"FullCostume\" | \"HairCostume\" | \"EarCostume\" | \"EyeCostume\" | \"TailCostume\" | \"Weapon\" | \"Armor\" | \"Belt\" | \"Necklace\" | \"Ring\" | \"EquipmentMaterial\" | \"FoodMaterial\" | \"MonsterPart\" | \"NormalMaterial\" | \"Hourglass\" | \"ApStone\" | \"Chest\" | \"Title\"",
+      "itemPrice": {
+        "currency": "Currency",
+        "sign": "number",
+        "majorUnit": "string",
+        "minorUnit": "string"
+      },
+      "__array": true
+    }
+  },
+  "buy9": {
+    "purchaseInfos": {
+      "orderId": "Guid",
+      "tradableId": "Guid",
+      "agentAddress": "Address",
+      "avatarAddress": "Address",
+      "type": "\"Food\" | \"FullCostume\" | \"HairCostume\" | \"EarCostume\" | \"EyeCostume\" | \"TailCostume\" | \"Weapon\" | \"Armor\" | \"Belt\" | \"Necklace\" | \"Ring\" | \"EquipmentMaterial\" | \"FoodMaterial\" | \"MonsterPart\" | \"NormalMaterial\" | \"Hourglass\" | \"ApStone\" | \"Chest\" | \"Title\"",
+      "itemPrice": {
+        "currency": "Currency",
+        "sign": "number",
+        "majorUnit": "string",
+        "minorUnit": "string"
+      },
+      "__array": true
+    }
+  },
+  "buy_multiple": {
+    "buyerAvatarAddress": "Address",
+    "purchaseInfos": {
+      "productId": "Guid",
+      "sellerAgentAddress": "Address",
+      "sellerAvatarAddress": "Address",
+      "__array": true
+    }
+  },
+  "buy_product": {
+    "AvatarAddress": "Address",
+    "ProductInfos": {
+      "ProductId": "Guid",
+      "Price": {
+        "currency": "Currency",
+        "sign": "number",
+        "majorUnit": "string",
+        "minorUnit": "string",
+        "AgentAddress": "Address",
+        "AvatarAddress": "Address",
+        "Type": "\"Fungible\" | \"FungibleAssetValue\" | \"NonFungible\"",
+        "} | {\nProductId": {}
+      },
+      "__array": true
+    }
+  },
+  "cancel_monster_collect": {
+    "collectRound": "number",
+    "level": "number"
+  },
+  "cancel_product_registration": {
+    "AvatarAddress": "Address",
+    "ProductInfos": {
+      "ProductId": "Guid",
+      "Price": {
+        "currency": "Currency",
+        "sign": "number",
+        "majorUnit": "string",
+        "minorUnit": "string",
+        "AgentAddress": "Address",
+        "AvatarAddress": "Address",
+        "Type": "\"Fungible\" | \"FungibleAssetValue\" | \"NonFungible\"",
+        "} | {\nProductId": {}
+      },
+      "__array": true
+    }
+  },
+  "charge_action_point3": {
+    "avatarAddress": "Address"
+  },
+  "charge_action_point": {
+    "avatarAddress": "Address"
+  },
+  "charge_action_point2": {
+    "avatarAddress": "Address"
+  },
+  "claim_monster_collection_reward3": {
+    "avatarAddress": "Address"
+  },
+  "claim_monster_collection_reward": {
+    "avatarAddress": "Address",
+    "collectionRound": "number"
+  },
+  "claim_monster_collection_reward2": {
+    "avatarAddress": "Address"
+  },
+  "claim_raid_reward": {
+    "avatarAddress": "Address"
+  },
+  "claim_stake_reward2": {
+    "avatarAddress": "Address"
+  },
+  "claim_stake_reward": {
+    "avatarAddress": "Address"
+  },
+  "claim_stake_reward3": {
+    "avatarAddress": "Address"
+  },
+  "claim_world_boss_kill_reward": {
+    "AvatarAddress": "Address"
+  },
+  "combination_consumable8": {
+    "avatarAddress": "Address",
+    "slotIndex": "number",
+    "recipeId": "number"
+  },
+  "combination_consumable": {
+    "AvatarAddress": "Address",
+    "recipeId": "number",
+    "slotIndex": "number"
+  },
+  "combination_consumable2": {
+    "AvatarAddress": "Address",
+    "recipeId": "number",
+    "slotIndex": "number"
+  },
+  "combination_consumable3": {
+    "AvatarAddress": "Address",
+    "recipeId": "number",
+    "slotIndex": "number"
+  },
+  "combination_consumable4": {
+    "AvatarAddress": "Address",
+    "recipeId": "number",
+    "slotIndex": "number"
+  },
+  "combination_consumable5": {
+    "AvatarAddress": "Address",
+    "recipeId": "number",
+    "slotIndex": "number"
+  },
+  "combination_consumable6": {
+    "AvatarAddress": "Address",
+    "recipeId": "number",
+    "slotIndex": "number"
+  },
+  "combination_consumable7": {
+    "AvatarAddress": "Address",
+    "recipeId": "number",
+    "slotIndex": "number"
+  },
+  "combination_equipment16": {
+    "avatarAddress": "Address",
+    "slotIndex": "number",
+    "recipeId": "number",
+    "subRecipeId": "number | null",
+    "payByCrystal": "boolean",
+    "useHammerPoint": "boolean",
+    "petId": "number | null"
+  },
+  "combination_equipment": {
+    "AvatarAddress": "Address",
+    "RecipeId": "number",
+    "SlotIndex": "number",
+    "SubRecipeId": "number | null"
+  },
+  "combination_equipment10": {
+    "avatarAddress": "Address",
+    "slotIndex": "number",
+    "recipeId": "number",
+    "subRecipeId": "number | null"
+  },
+  "combination_equipment11": {
+    "avatarAddress": "Address",
+    "slotIndex": "number",
+    "recipeId": "number",
+    "subRecipeId": "number | null"
+  },
+  "combination_equipment12": {
+    "avatarAddress": "Address",
+    "slotIndex": "number",
+    "recipeId": "number",
+    "subRecipeId": "number | null",
+    "payByCrystal": "boolean"
+  },
+  "combination_equipment13": {
+    "avatarAddress": "Address",
+    "slotIndex": "number",
+    "recipeId": "number",
+    "subRecipeId": "number | null",
+    "payByCrystal": "boolean",
+    "useHammerPoint": "boolean"
+  },
+  "combination_equipment14": {
+    "avatarAddress": "Address",
+    "slotIndex": "number",
+    "recipeId": "number",
+    "subRecipeId": "number | null",
+    "payByCrystal": "boolean",
+    "useHammerPoint": "boolean"
+  },
+  "combination_equipment15": {
+    "avatarAddress": "Address",
+    "slotIndex": "number",
+    "recipeId": "number",
+    "subRecipeId": "number | null",
+    "payByCrystal": "boolean",
+    "useHammerPoint": "boolean"
+  },
+  "combination_equipment2": {
+    "AvatarAddress": "Address",
+    "RecipeId": "number",
+    "SlotIndex": "number",
+    "SubRecipeId": "number | null"
+  },
+  "combination_equipment3": {
+    "AvatarAddress": "Address",
+    "RecipeId": "number",
+    "SlotIndex": "number",
+    "SubRecipeId": "number | null"
+  },
+  "combination_equipment4": {
+    "AvatarAddress": "Address",
+    "RecipeId": "number",
+    "SlotIndex": "number",
+    "SubRecipeId": "number | null"
+  },
+  "combination_equipment5": {
+    "AvatarAddress": "Address",
+    "RecipeId": "number",
+    "SlotIndex": "number",
+    "SubRecipeId": "number | null"
+  },
+  "combination_equipment6": {
+    "AvatarAddress": "Address",
+    "RecipeId": "number",
+    "SlotIndex": "number",
+    "SubRecipeId": "number | null"
+  },
+  "combination_equipment7": {
+    "AvatarAddress": "Address",
+    "RecipeId": "number",
+    "SlotIndex": "number",
+    "SubRecipeId": "number | null"
+  },
+  "combination_equipment8": {
+    "avatarAddress": "Address",
+    "slotIndex": "number",
+    "recipeId": "number",
+    "subRecipeId": "number | null"
+  },
+  "combination_equipment9": {
+    "avatarAddress": "Address",
+    "slotIndex": "number",
+    "recipeId": "number",
+    "subRecipeId": "number | null"
+  },
+  "create_avatar8": {
+    "index": "number",
+    "hair": "number",
+    "lens": "number",
+    "ear": "number",
+    "tail": "number",
+    "name": "string"
+  },
+  "create_avatar": {
+    "avatarAddress": "Address",
+    "index": "number",
+    "hair": "number",
+    "lens": "number",
+    "ear": "number",
+    "tail": "number",
+    "name": "string"
+  },
+  "create_avatar2": {
+    "index": "number",
+    "hair": "number",
+    "lens": "number",
+    "ear": "number",
+    "tail": "number",
+    "name": "string"
+  },
+  "create_avatar3": {
+    "index": "number",
+    "hair": "number",
+    "lens": "number",
+    "ear": "number",
+    "tail": "number",
+    "name": "string"
+  },
+  "create_avatar4": {
+    "index": "number",
+    "hair": "number",
+    "lens": "number",
+    "ear": "number",
+    "tail": "number",
+    "name": "string"
+  },
+  "create_avatar5": {
+    "index": "number",
+    "hair": "number",
+    "lens": "number",
+    "ear": "number",
+    "tail": "number",
+    "name": "string"
+  },
+  "create_avatar6": {
+    "index": "number",
+    "hair": "number",
+    "lens": "number",
+    "ear": "number",
+    "tail": "number",
+    "name": "string"
+  },
+  "create_avatar7": {
+    "index": "number",
+    "hair": "number",
+    "lens": "number",
+    "ear": "number",
+    "tail": "number",
+    "name": "string"
+  },
+  "create_pending_activation": {
+    "activationKey": {
+      "address": "Address",
+      "Nonce": "Uint8Array",
+      "PublicKey": {
+        "publicKey": "number[]"
+      }
+    }
+  },
+  "daily_reward6": {
+    "avatarAddress": "Address"
+  },
+  "daily_reward": {
+    "avatarAddress": "Address"
+  },
+  "daily_reward2": {
+    "avatarAddress": "Address"
+  },
+  "daily_reward3": {
+    "avatarAddress": "Address"
+  },
+  "daily_reward4": {
+    "avatarAddress": "Address"
+  },
+  "daily_reward5": {
+    "avatarAddress": "Address"
+  },
+  "event_consumable_item_crafts": {
+    "AvatarAddress": "Address",
+    "EventScheduleId": "number",
+    "EventConsumableItemRecipeId": "number",
+    "SlotIndex": "number"
+  },
+  "event_dungeon_battle4": {
+    "AvatarAddress": "Address",
+    "EventScheduleId": "number",
+    "EventDungeonId": "number",
+    "EventDungeonStageId": "number",
+    "Equipments": "Guid[]",
+    "Costumes": "Guid[]",
+    "Foods": "Guid[]",
+    "BuyTicketIfNeeded": "boolean",
+    "RuneInfos": {
+      "slotIndex": "number",
+      "runeId": "number",
+      "__array": true
+    }
+  },
+  "event_dungeon_battle": {
+    "AvatarAddress": "Address",
+    "EventScheduleId": "number",
+    "EventDungeonId": "number",
+    "EventDungeonStageId": "number",
+    "Equipments": "Guid[]",
+    "Costumes": "Guid[]",
+    "Foods": "Guid[]",
+    "BuyTicketIfNeeded": "boolean"
+  },
+  "event_dungeon_battle2": {
+    "AvatarAddress": "Address",
+    "EventScheduleId": "number",
+    "EventDungeonId": "number",
+    "EventDungeonStageId": "number",
+    "Equipments": "Guid[]",
+    "Costumes": "Guid[]",
+    "Foods": "Guid[]",
+    "BuyTicketIfNeeded": "boolean"
+  },
+  "event_dungeon_battle3": {
+    "AvatarAddress": "Address",
+    "EventScheduleId": "number",
+    "EventDungeonId": "number",
+    "EventDungeonStageId": "number",
+    "Equipments": "Guid[]",
+    "Costumes": "Guid[]",
+    "Foods": "Guid[]",
+    "BuyTicketIfNeeded": "boolean",
+    "RuneInfos": {
+      "slotIndex": "number",
+      "runeId": "number",
+      "__array": true
+    }
+  },
+  "event_material_item_crafts": {
+    "AvatarAddress": "Address",
+    "EventScheduleId": "number",
+    "EventMaterialItemRecipeId": "number",
+    "MaterialsToUse": "Map<number, number>"
+  },
+  "grinding": {
+    "AvatarAddress": "Address",
+    "EquipmentIds": "Guid[]",
+    "ChargeAp": "boolean"
+  },
+  "hack_and_slash20": {
+    "Costumes": "Guid[]",
+    "Equipments": "Guid[]",
+    "Foods": "Guid[]",
+    "RuneInfos": {
+      "slotIndex": "number",
+      "runeId": "number",
+      "__array": true
+    }
+  },
+  "hack_and_slash": {
+    "costumes": "number[]",
+    "equipments": "Guid[]",
+    "foods": "Guid[]",
+    "worldId": "number",
+    "stageId": "number",
+    "avatarAddress": "Address",
+    "WeeklyArenaAddress": "Address",
+    "RankingMapAddress": "Address"
+  },
+  "hack_and_slash10": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "foods": "Guid[]",
+    "worldId": "number",
+    "stageId": "number",
+    "playCount": "number",
+    "avatarAddress": "Address",
+    "rankingMapAddress": "Address"
+  },
+  "hack_and_slash11": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "foods": "Guid[]",
+    "worldId": "number",
+    "stageId": "number",
+    "playCount": "number",
+    "avatarAddress": "Address"
+  },
+  "hack_and_slash12": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "foods": "Guid[]",
+    "worldId": "number",
+    "stageId": "number",
+    "playCount": "number",
+    "avatarAddress": "Address"
+  },
+  "hack_and_slash13": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "foods": "Guid[]",
+    "worldId": "number",
+    "stageId": "number",
+    "avatarAddress": "Address"
+  },
+  "hack_and_slash14": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "foods": "Guid[]",
+    "worldId": "number",
+    "stageId": "number",
+    "stageBuffId": "number | null",
+    "avatarAddress": "Address"
+  },
+  "hack_and_slash15": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "foods": "Guid[]",
+    "worldId": "number",
+    "stageId": "number",
+    "stageBuffId": "number | null",
+    "avatarAddress": "Address"
+  },
+  "hack_and_slash16": {
+    "Costumes": "Guid[]",
+    "Equipments": "Guid[]",
+    "Foods": "Guid[]",
+    "WorldId": "number",
+    "StageId": "number",
+    "StageBuffId": "number | null",
+    "AvatarAddress": "Address",
+    "PlayCount": "number"
+  },
+  "hack_and_slash17": {
+    "Costumes": "Guid[]",
+    "Equipments": "Guid[]",
+    "Foods": "Guid[]",
+    "WorldId": "number",
+    "StageId": "number",
+    "StageBuffId": "number | null",
+    "AvatarAddress": "Address",
+    "PlayCount": "number"
+  },
+  "hack_and_slash18": {
+    "Costumes": "Guid[]",
+    "Equipments": "Guid[]",
+    "Foods": "Guid[]",
+    "WorldId": "number",
+    "StageId": "number",
+    "StageBuffId": "number | null",
+    "AvatarAddress": "Address",
+    "PlayCount": "number"
+  },
+  "hack_and_slash19": {
+    "Costumes": "Guid[]",
+    "Equipments": "Guid[]",
+    "Foods": "Guid[]",
+    "RuneInfos": {
+      "slotIndex": "number",
+      "runeId": "number",
+      "__array": true
+    }
+  },
+  "hack_and_slash2": {
+    "costumes": "number[]",
+    "equipments": "Guid[]",
+    "foods": "Guid[]",
+    "worldId": "number",
+    "stageId": "number",
+    "avatarAddress": "Address",
+    "WeeklyArenaAddress": "Address",
+    "RankingMapAddress": "Address"
+  },
+  "hack_and_slash3": {
+    "costumes": "number[]",
+    "equipments": "Guid[]",
+    "foods": "Guid[]",
+    "worldId": "number",
+    "stageId": "number",
+    "avatarAddress": "Address",
+    "WeeklyArenaAddress": "Address",
+    "RankingMapAddress": "Address"
+  },
+  "hack_and_slash4": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "foods": "Guid[]",
+    "worldId": "number",
+    "stageId": "number",
+    "avatarAddress": "Address",
+    "WeeklyArenaAddress": "Address",
+    "RankingMapAddress": "Address"
+  },
+  "hack_and_slash5": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "foods": "Guid[]",
+    "worldId": "number",
+    "stageId": "number",
+    "avatarAddress": "Address",
+    "WeeklyArenaAddress": "Address",
+    "RankingMapAddress": "Address"
+  },
+  "hack_and_slash6": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "foods": "Guid[]",
+    "worldId": "number",
+    "stageId": "number",
+    "avatarAddress": "Address",
+    "WeeklyArenaAddress": "Address",
+    "RankingMapAddress": "Address"
+  },
+  "hack_and_slash7": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "foods": "Guid[]",
+    "worldId": "number",
+    "stageId": "number",
+    "avatarAddress": "Address",
+    "WeeklyArenaAddress": "Address",
+    "RankingMapAddress": "Address"
+  },
+  "hack_and_slash8": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "foods": "Guid[]",
+    "worldId": "number",
+    "stageId": "number",
+    "avatarAddress": "Address",
+    "rankingMapAddress": "Address"
+  },
+  "hack_and_slash9": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "foods": "Guid[]",
+    "worldId": "number",
+    "stageId": "number",
+    "playCount": "number",
+    "avatarAddress": "Address",
+    "rankingMapAddress": "Address"
+  },
+  "hack_and_slash_random_buff": {
+    "AvatarAddress": "Address",
+    "AdvancedGacha": "boolean"
+  },
+  "hack_and_slash_sweep9": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "runeInfos": {
+      "slotIndex": "number",
+      "runeId": "number",
+      "__array": true
+    }
+  },
+  "hack_and_slash_sweep": {
+    "avatarAddress": "Address",
+    "apStoneCount": "number",
+    "worldId": "number",
+    "stageId": "number"
+  },
+  "hack_and_slash_sweep2": {
+    "avatarAddress": "Address",
+    "apStoneCount": "number",
+    "worldId": "number",
+    "stageId": "number"
+  },
+  "hack_and_slash_sweep3": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "avatarAddress": "Address",
+    "apStoneCount": "number",
+    "actionPoint": "number",
+    "worldId": "number",
+    "stageId": "number"
+  },
+  "hack_and_slash_sweep4": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "avatarAddress": "Address",
+    "apStoneCount": "number",
+    "actionPoint": "number",
+    "worldId": "number",
+    "stageId": "number"
+  },
+  "hack_and_slash_sweep5": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "avatarAddress": "Address",
+    "apStoneCount": "number",
+    "actionPoint": "number",
+    "worldId": "number",
+    "stageId": "number"
+  },
+  "hack_and_slash_sweep6": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "avatarAddress": "Address",
+    "apStoneCount": "number",
+    "actionPoint": "number",
+    "worldId": "number",
+    "stageId": "number"
+  },
+  "hack_and_slash_sweep7": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "avatarAddress": "Address",
+    "apStoneCount": "number",
+    "actionPoint": "number",
+    "worldId": "number",
+    "stageId": "number"
+  },
+  "hack_and_slash_sweep8": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "runeInfos": {
+      "slotIndex": "number",
+      "runeId": "number",
+      "__array": true
+    }
+  },
+  "item_enhancement11": {
+    "itemId": "Guid",
+    "materialId": "Guid",
+    "avatarAddress": "Address",
+    "slotIndex": "number"
+  },
+  "item_enhancement": {
+    "itemId": "Guid",
+    "materialIds": "Guid[]",
+    "avatarAddress": "Address",
+    "slotIndex": "number"
+  },
+  "item_enhancement10": {
+    "itemId": "Guid",
+    "materialId": "Guid",
+    "avatarAddress": "Address",
+    "slotIndex": "number"
+  },
+  "item_enhancement2": {
+    "itemId": "Guid",
+    "materialId": "Guid",
+    "avatarAddress": "Address",
+    "slotIndex": "number"
+  },
+  "item_enhancement3": {
+    "itemId": "Guid",
+    "materialId": "Guid",
+    "avatarAddress": "Address",
+    "slotIndex": "number"
+  },
+  "item_enhancement4": {
+    "itemId": "Guid",
+    "materialId": "Guid",
+    "avatarAddress": "Address",
+    "slotIndex": "number"
+  },
+  "item_enhancement5": {
+    "itemId": "Guid",
+    "materialId": "Guid",
+    "avatarAddress": "Address",
+    "slotIndex": "number"
+  },
+  "item_enhancement6": {
+    "itemId": "Guid",
+    "materialId": "Guid",
+    "avatarAddress": "Address",
+    "slotIndex": "number"
+  },
+  "item_enhancement7": {
+    "itemId": "Guid",
+    "materialId": "Guid",
+    "avatarAddress": "Address",
+    "slotIndex": "number"
+  },
+  "item_enhancement8": {
+    "itemId": "Guid",
+    "materialId": "Guid",
+    "avatarAddress": "Address",
+    "slotIndex": "number"
+  },
+  "item_enhancement9": {
+    "itemId": "Guid",
+    "materialId": "Guid",
+    "avatarAddress": "Address",
+    "slotIndex": "number"
+  },
+  "join_arena3": {
+    "avatarAddress": "Address",
+    "championshipId": "number",
+    "round": "number",
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "runeInfos": {
+      "slotIndex": "number",
+      "runeId": "number",
+      "__array": true
+    }
+  },
+  "join_arena": {
+    "avatarAddress": "Address",
+    "championshipId": "number",
+    "round": "number",
+    "costumes": "Guid[]",
+    "equipments": "Guid[]"
+  },
+  "join_arena2": {
+    "avatarAddress": "Address",
+    "championshipId": "number",
+    "round": "number",
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "runeInfos": {
+      "slotIndex": "number",
+      "runeId": "number",
+      "__array": true
+    }
+  },
+  "migrate_monster_collection": {
+    "avatarAddress": "Address"
+  },
+  "migration_activated_accounts_state": {},
+  "migration_avatar_state": {
+    "avatarStates": "\"BencodexValue\"[]"
+  },
+  "migration_legacy_shop2": {
+    "AvatarAddressesHex": "string[]"
+  },
+  "migration_legacy_shop": {
+    "AvatarAddressesHex": "string[]"
+  },
+  "mimisbrunnr_battle12": {
+    "Costumes": "Guid[]",
+    "Equipments": "Guid[]",
+    "Foods": "Guid[]",
+    "RuneInfos": {
+      "slotIndex": "number",
+      "runeId": "number",
+      "__array": true
+    }
+  },
+  "mimisbrunnr_battle": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "foods": "Guid[]",
+    "worldId": "number",
+    "stageId": "number",
+    "avatarAddress": "Address",
+    "WeeklyArenaAddress": "Address",
+    "RankingMapAddress": "Address"
+  },
+  "mimisbrunnr_battle10": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "foods": "Guid[]",
+    "worldId": "number",
+    "stageId": "number",
+    "playCount": "number",
+    "avatarAddress": "Address"
+  },
+  "mimisbrunnr_battle11": {
+    "Costumes": "Guid[]",
+    "Equipments": "Guid[]",
+    "Foods": "Guid[]",
+    "RuneInfos": {
+      "slotIndex": "number",
+      "runeId": "number",
+      "__array": true
+    }
+  },
+  "mimisbrunnr_battle2": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "foods": "Guid[]",
+    "worldId": "number",
+    "stageId": "number",
+    "avatarAddress": "Address",
+    "WeeklyArenaAddress": "Address",
+    "RankingMapAddress": "Address"
+  },
+  "mimisbrunnr_battle3": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "foods": "Guid[]",
+    "worldId": "number",
+    "stageId": "number",
+    "avatarAddress": "Address",
+    "WeeklyArenaAddress": "Address",
+    "RankingMapAddress": "Address"
+  },
+  "mimisbrunnr_battle4": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "foods": "Guid[]",
+    "worldId": "number",
+    "stageId": "number",
+    "avatarAddress": "Address",
+    "WeeklyArenaAddress": "Address",
+    "RankingMapAddress": "Address"
+  },
+  "mimisbrunnr_battle5": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "foods": "Guid[]",
+    "worldId": "number",
+    "stageId": "number",
+    "avatarAddress": "Address",
+    "rankingMapAddress": "Address"
+  },
+  "mimisbrunnr_battle6": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "foods": "Guid[]",
+    "worldId": "number",
+    "stageId": "number",
+    "playCount": "number",
+    "avatarAddress": "Address",
+    "rankingMapAddress": "Address"
+  },
+  "mimisbrunnr_battle7": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "foods": "Guid[]",
+    "worldId": "number",
+    "stageId": "number",
+    "playCount": "number",
+    "avatarAddress": "Address",
+    "rankingMapAddress": "Address"
+  },
+  "mimisbrunnr_battle8": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "foods": "Guid[]",
+    "worldId": "number",
+    "stageId": "number",
+    "playCount": "number",
+    "avatarAddress": "Address"
+  },
+  "mimisbrunnr_battle9": {
+    "costumes": "Guid[]",
+    "equipments": "Guid[]",
+    "foods": "Guid[]",
+    "worldId": "number",
+    "stageId": "number",
+    "playCount": "number",
+    "avatarAddress": "Address"
+  },
+  "monster_collect3": {
+    "level": "number"
+  },
+  "monster_collect": {
+    "level": "number",
+    "collectionRound": "number"
+  },
+  "monster_collect2": {
+    "level": "number"
+  },
+  "patch_table_sheet": {
+    "TableName": "string",
+    "TableCsv": "string"
+  },
+  "pet_enhancement": {
+    "AvatarAddress": "Address",
+    "PetId": "number",
+    "TargetLevel": "number"
+  },
+  "prepare_reward_assets": {
+    "rewardPoolAddress": "Address",
+    "assets": {
+      "currency": "Currency",
+      "sign": "number",
+      "majorUnit": "string",
+      "minorUnit": "string",
+      "__array": true
+    }
+  },
+  "raid4": {
+    "AvatarAddress": "Address",
+    "EquipmentIds": "Guid[]",
+    "CostumeIds": "Guid[]",
+    "FoodIds": "Guid[]",
+    "RuneInfos": {
+      "slotIndex": "number",
+      "runeId": "number",
+      "__array": true
+    }
+  },
+  "raid": {
+    "AvatarAddress": "Address",
+    "EquipmentIds": "Guid[]",
+    "CostumeIds": "Guid[]",
+    "FoodIds": "Guid[]",
+    "PayNcg": "boolean"
+  },
+  "raid2": {
+    "AvatarAddress": "Address",
+    "EquipmentIds": "Guid[]",
+    "CostumeIds": "Guid[]",
+    "FoodIds": "Guid[]",
+    "PayNcg": "boolean"
+  },
+  "raid3": {
+    "AvatarAddress": "Address",
+    "EquipmentIds": "Guid[]",
+    "CostumeIds": "Guid[]",
+    "FoodIds": "Guid[]",
+    "RuneInfos": {
+      "slotIndex": "number",
+      "runeId": "number",
+      "__array": true
+    }
+  },
+  "ranking_battle12": {
+    "avatarAddress": "Address",
+    "enemyAddress": "Address",
+    "weeklyArenaAddress": "Address",
+    "costumeIds": "Guid[]",
+    "equipmentIds": "Guid[]"
+  },
+  "ranking_battle": {
+    "AvatarAddress": "Address",
+    "EnemyAddress": "Address",
+    "WeeklyArenaAddress": "Address",
+    "costumeIds": "number[]",
+    "equipmentIds": "Guid[]",
+    "consumableIds": "Guid[]"
+  },
+  "ranking_battle10": {
+    "avatarAddress": "Address",
+    "enemyAddress": "Address",
+    "weeklyArenaAddress": "Address",
+    "costumeIds": "Guid[]",
+    "equipmentIds": "Guid[]"
+  },
+  "ranking_battle11": {
+    "avatarAddress": "Address",
+    "enemyAddress": "Address",
+    "weeklyArenaAddress": "Address",
+    "costumeIds": "Guid[]",
+    "equipmentIds": "Guid[]"
+  },
+  "ranking_battle2": {
+    "AvatarAddress": "Address",
+    "EnemyAddress": "Address",
+    "WeeklyArenaAddress": "Address",
+    "costumeIds": "number[]",
+    "equipmentIds": "Guid[]",
+    "consumableIds": "Guid[]"
+  },
+  "ranking_battle3": {
+    "AvatarAddress": "Address",
+    "EnemyAddress": "Address",
+    "WeeklyArenaAddress": "Address",
+    "costumeIds": "Guid[]",
+    "equipmentIds": "Guid[]",
+    "consumableIds": "Guid[]"
+  },
+  "ranking_battle4": {
+    "AvatarAddress": "Address",
+    "EnemyAddress": "Address",
+    "WeeklyArenaAddress": "Address",
+    "costumeIds": "Guid[]",
+    "equipmentIds": "Guid[]",
+    "consumableIds": "Guid[]"
+  },
+  "ranking_battle5": {
+    "AvatarAddress": "Address",
+    "EnemyAddress": "Address",
+    "WeeklyArenaAddress": "Address",
+    "costumeIds": "Guid[]",
+    "equipmentIds": "Guid[]",
+    "consumableIds": "Guid[]"
+  },
+  "ranking_battle6": {
+    "avatarAddress": "Address",
+    "enemyAddress": "Address",
+    "weeklyArenaAddress": "Address",
+    "costumeIds": "Guid[]",
+    "equipmentIds": "Guid[]",
+    "consumableIds": "Guid[]"
+  },
+  "ranking_battle7": {
+    "avatarAddress": "Address",
+    "enemyAddress": "Address",
+    "weeklyArenaAddress": "Address",
+    "costumeIds": "Guid[]",
+    "equipmentIds": "Guid[]",
+    "consumableIds": "Guid[]"
+  },
+  "ranking_battle8": {
+    "avatarAddress": "Address",
+    "enemyAddress": "Address",
+    "weeklyArenaAddress": "Address",
+    "costumeIds": "Guid[]",
+    "equipmentIds": "Guid[]",
+    "consumableIds": "Guid[]"
+  },
+  "ranking_battle9": {
+    "avatarAddress": "Address",
+    "enemyAddress": "Address",
+    "weeklyArenaAddress": "Address",
+    "costumeIds": "Guid[]",
+    "equipmentIds": "Guid[]",
+    "consumableIds": "Guid[]"
+  },
+  "rapid_combination9": {
+    "avatarAddress": "Address",
+    "slotIndex": "number"
+  },
+  "rapid_combination": {
+    "avatarAddress": "Address",
+    "slotIndex": "number"
+  },
+  "rapid_combination2": {
+    "avatarAddress": "Address",
+    "slotIndex": "number"
+  },
+  "rapid_combination3": {
+    "avatarAddress": "Address",
+    "slotIndex": "number"
+  },
+  "rapid_combination4": {
+    "avatarAddress": "Address",
+    "slotIndex": "number"
+  },
+  "rapid_combination5": {
+    "avatarAddress": "Address",
+    "slotIndex": "number"
+  },
+  "rapid_combination6": {
+    "avatarAddress": "Address",
+    "slotIndex": "number"
+  },
+  "rapid_combination7": {
+    "avatarAddress": "Address",
+    "slotIndex": "number"
+  },
+  "rapid_combination8": {
+    "avatarAddress": "Address",
+    "slotIndex": "number",
+    "AvatarAddress": "Address",
+    "SlotIndex": "number"
+  },
+  "redeem_code3": {
+    "code": "string",
+    "avatarAddress": "Address"
+  },
+  "redeem_code": {
+    "code": "string",
+    "avatarAddress": "Address"
+  },
+  "redeem_code2": {
+    "code": "string",
+    "avatarAddress": "Address"
+  },
+  "register_product": {
+    "AvatarAddress": "Address",
+    "RegisterInfos": {
+      "AvatarAddress": "Address",
+      "Price": {
+        "currency": "Currency",
+        "sign": "number",
+        "majorUnit": "string",
+        "minorUnit": "string",
+        "Asset": {
+          "currency": "Currency",
+          "sign": "number",
+          "majorUnit": "string",
+          "minorUnit": "string",
+          "Type": "\"Fungible\" | \"FungibleAssetValue\" | \"NonFungible\""
+        }
+      },
+      "__array": true
+    }
+  },
+  "renew_admin_state": {
+    "newValidUntil": "number"
+  },
+  "runeEnhancement2": {
+    "AvatarAddress": "Address",
+    "RuneId": "number",
+    "TryCount": "number"
+  },
+  "runeEnhancement": {
+    "AvatarAddress": "Address",
+    "RuneId": "number",
+    "TryCount": "number"
+  },
+  "secure_mining_reward": {
+    "recipient": "Address"
+  },
+  "sell12": {
+    "sellerAvatarAddress": "Address",
+    "tradableId": "Guid",
+    "count": "number",
+    "price": {
+      "currency": "Currency",
+      "sign": "number",
+      "majorUnit": "string",
+      "minorUnit": "string"
+    }
+  },
+  "sell": {
+    "sellerAvatarAddress": "Address",
+    "itemId": "Guid",
+    "price": {
+      "currency": "Currency",
+      "sign": "number",
+      "majorUnit": "string",
+      "minorUnit": "string"
+    }
+  },
+  "sell10": {
+    "sellerAvatarAddress": "Address",
+    "tradableId": "Guid",
+    "count": "number",
+    "price": {
+      "currency": "Currency",
+      "sign": "number",
+      "majorUnit": "string",
+      "minorUnit": "string"
+    }
+  },
+  "sell11": {
+    "sellerAvatarAddress": "Address",
+    "tradableId": "Guid",
+    "count": "number",
+    "price": {
+      "currency": "Currency",
+      "sign": "number",
+      "majorUnit": "string",
+      "minorUnit": "string"
+    }
+  },
+  "sell2": {
+    "sellerAvatarAddress": "Address",
+    "itemId": "Guid",
+    "price": {
+      "currency": "Currency",
+      "sign": "number",
+      "majorUnit": "string",
+      "minorUnit": "string"
+    }
+  },
+  "sell3": {
+    "sellerAvatarAddress": "Address",
+    "itemId": "Guid",
+    "price": {
+      "currency": "Currency",
+      "sign": "number",
+      "majorUnit": "string",
+      "minorUnit": "string"
+    }
+  },
+  "sell4": {
+    "sellerAvatarAddress": "Address",
+    "itemId": "Guid",
+    "itemSubType": "\"Food\" | \"FullCostume\" | \"HairCostume\" | \"EarCostume\" | \"EyeCostume\" | \"TailCostume\" | \"Weapon\" | \"Armor\" | \"Belt\" | \"Necklace\" | \"Ring\" | \"EquipmentMaterial\" | \"FoodMaterial\" | \"MonsterPart\" | \"NormalMaterial\" | \"Hourglass\" | \"ApStone\" | \"Chest\" | \"Title\"",
+    "price": {
+      "currency": "Currency",
+      "sign": "number",
+      "majorUnit": "string",
+      "minorUnit": "string"
+    }
+  },
+  "sell5": {
+    "sellerAvatarAddress": "Address",
+    "tradableId": "Guid",
+    "count": "number",
+    "price": {
+      "currency": "Currency",
+      "sign": "number",
+      "majorUnit": "string",
+      "minorUnit": "string"
+    }
+  },
+  "sell6": {
+    "sellerAvatarAddress": "Address",
+    "tradableId": "Guid",
+    "count": "number",
+    "price": {
+      "currency": "Currency",
+      "sign": "number",
+      "majorUnit": "string",
+      "minorUnit": "string"
+    }
+  },
+  "sell7": {
+    "sellerAvatarAddress": "Address",
+    "tradableId": "Guid",
+    "count": "number",
+    "price": {
+      "currency": "Currency",
+      "sign": "number",
+      "majorUnit": "string",
+      "minorUnit": "string"
+    }
+  },
+  "sell8": {
+    "sellerAvatarAddress": "Address",
+    "tradableId": "Guid",
+    "count": "number",
+    "price": {
+      "currency": "Currency",
+      "sign": "number",
+      "majorUnit": "string",
+      "minorUnit": "string"
+    }
+  },
+  "sell9": {
+    "sellerAvatarAddress": "Address",
+    "tradableId": "Guid",
+    "count": "number",
+    "price": {
+      "currency": "Currency",
+      "sign": "number",
+      "majorUnit": "string",
+      "minorUnit": "string"
+    }
+  },
+  "sell_cancellation9": {
+    "orderId": "Guid",
+    "tradableId": "Guid",
+    "sellerAvatarAddress": "Address",
+    "itemSubType": "\"Food\" | \"FullCostume\" | \"HairCostume\" | \"EarCostume\" | \"EyeCostume\" | \"TailCostume\" | \"Weapon\" | \"Armor\" | \"Belt\" | \"Necklace\" | \"Ring\" | \"EquipmentMaterial\" | \"FoodMaterial\" | \"MonsterPart\" | \"NormalMaterial\" | \"Hourglass\" | \"ApStone\" | \"Chest\" | \"Title\""
+  },
+  "sell_cancellation": {
+    "productId": "Guid",
+    "sellerAvatarAddress": "Address"
+  },
+  "sell_cancellation2": {
+    "productId": "Guid",
+    "sellerAvatarAddress": "Address"
+  },
+  "sell_cancellation3": {
+    "productId": "Guid",
+    "sellerAvatarAddress": "Address"
+  },
+  "sell_cancellation4": {
+    "productId": "Guid",
+    "sellerAvatarAddress": "Address"
+  },
+  "sell_cancellation5": {
+    "productId": "Guid",
+    "sellerAvatarAddress": "Address",
+    "itemSubType": "\"Food\" | \"FullCostume\" | \"HairCostume\" | \"EarCostume\" | \"EyeCostume\" | \"TailCostume\" | \"Weapon\" | \"Armor\" | \"Belt\" | \"Necklace\" | \"Ring\" | \"EquipmentMaterial\" | \"FoodMaterial\" | \"MonsterPart\" | \"NormalMaterial\" | \"Hourglass\" | \"ApStone\" | \"Chest\" | \"Title\""
+  },
+  "sell_cancellation6": {
+    "productId": "Guid",
+    "sellerAvatarAddress": "Address",
+    "itemSubType": "\"Food\" | \"FullCostume\" | \"HairCostume\" | \"EarCostume\" | \"EyeCostume\" | \"TailCostume\" | \"Weapon\" | \"Armor\" | \"Belt\" | \"Necklace\" | \"Ring\" | \"EquipmentMaterial\" | \"FoodMaterial\" | \"MonsterPart\" | \"NormalMaterial\" | \"Hourglass\" | \"ApStone\" | \"Chest\" | \"Title\""
+  },
+  "sell_cancellation7": {
+    "orderId": "Guid",
+    "tradableId": "Guid",
+    "sellerAvatarAddress": "Address",
+    "itemSubType": "\"Food\" | \"FullCostume\" | \"HairCostume\" | \"EarCostume\" | \"EyeCostume\" | \"TailCostume\" | \"Weapon\" | \"Armor\" | \"Belt\" | \"Necklace\" | \"Ring\" | \"EquipmentMaterial\" | \"FoodMaterial\" | \"MonsterPart\" | \"NormalMaterial\" | \"Hourglass\" | \"ApStone\" | \"Chest\" | \"Title\""
+  },
+  "sell_cancellation8": {
+    "orderId": "Guid",
+    "tradableId": "Guid",
+    "sellerAvatarAddress": "Address",
+    "itemSubType": "\"Food\" | \"FullCostume\" | \"HairCostume\" | \"EarCostume\" | \"EyeCostume\" | \"TailCostume\" | \"Weapon\" | \"Armor\" | \"Belt\" | \"Necklace\" | \"Ring\" | \"EquipmentMaterial\" | \"FoodMaterial\" | \"MonsterPart\" | \"NormalMaterial\" | \"Hourglass\" | \"ApStone\" | \"Chest\" | \"Title\""
+  },
+  "stake2": {
+    "amount": "string"
+  },
+  "stake": {
+    "amount": "string"
+  },
+  "transfer_asset3": {
+    "sender": "Address",
+    "recipient": "Address",
+    "amount": {
+      "currency": "Currency",
+      "sign": "number",
+      "majorUnit": "string",
+      "minorUnit": "string"
+    }
+  },
+  "transfer_asset": {
+    "sender": "Address",
+    "recipient": "Address",
+    "amount": {
+      "currency": "Currency",
+      "sign": "number",
+      "majorUnit": "string",
+      "minorUnit": "string"
+    }
+  },
+  "transfer_asset2": {
+    "sender": "Address",
+    "recipient": "Address",
+    "amount": {
+      "currency": "Currency",
+      "sign": "number",
+      "majorUnit": "string",
+      "minorUnit": "string"
+    }
+  },
+  "unlock_equipment_recipe2": {
+    "RecipeIds": "number[]",
+    "AvatarAddress": "Address"
+  },
+  "unlock_equipment_recipe": {
+    "RecipeIds": "number[]",
+    "AvatarAddress": "Address"
+  },
+  "unlock_rune_slot": {
+    "AvatarAddress": "Address",
+    "SlotIndex": "number"
+  },
+  "unlock_world2": {
+    "WorldIds": "number[]",
+    "AvatarAddress": "Address"
+  },
+  "unlock_world": {
+    "WorldIds": "number[]",
+    "AvatarAddress": "Address"
+  },
+  "update_sell5": {
+    "sellerAvatarAddress": "Address",
+    "updateSellInfos": {
+      "orderId": "Guid",
+      "updateSellOrderId": "Guid",
+      "tradableId": "Guid",
+      "itemSubType": "\"Food\" | \"FullCostume\" | \"HairCostume\" | \"EarCostume\" | \"EyeCostume\" | \"TailCostume\" | \"Weapon\" | \"Armor\" | \"Belt\" | \"Necklace\" | \"Ring\" | \"EquipmentMaterial\" | \"FoodMaterial\" | \"MonsterPart\" | \"NormalMaterial\" | \"Hourglass\" | \"ApStone\" | \"Chest\" | \"Title\"",
+      "price": {
+        "currency": "Currency",
+        "sign": "number",
+        "majorUnit": "string",
+        "minorUnit": "string"
+      },
+      "__array": true
+    }
+  },
+  "update_sell": {
+    "orderId": "Guid",
+    "updateSellOrderId": "Guid",
+    "tradableId": "Guid",
+    "sellerAvatarAddress": "Address",
+    "itemSubType": "\"Food\" | \"FullCostume\" | \"HairCostume\" | \"EarCostume\" | \"EyeCostume\" | \"TailCostume\" | \"Weapon\" | \"Armor\" | \"Belt\" | \"Necklace\" | \"Ring\" | \"EquipmentMaterial\" | \"FoodMaterial\" | \"MonsterPart\" | \"NormalMaterial\" | \"Hourglass\" | \"ApStone\" | \"Chest\" | \"Title\"",
+    "price": {
+      "currency": "Currency",
+      "sign": "number",
+      "majorUnit": "string",
+      "minorUnit": "string"
+    }
+  },
+  "update_sell2": {
+    "orderId": "Guid",
+    "updateSellOrderId": "Guid",
+    "tradableId": "Guid",
+    "sellerAvatarAddress": "Address",
+    "itemSubType": "\"Food\" | \"FullCostume\" | \"HairCostume\" | \"EarCostume\" | \"EyeCostume\" | \"TailCostume\" | \"Weapon\" | \"Armor\" | \"Belt\" | \"Necklace\" | \"Ring\" | \"EquipmentMaterial\" | \"FoodMaterial\" | \"MonsterPart\" | \"NormalMaterial\" | \"Hourglass\" | \"ApStone\" | \"Chest\" | \"Title\"",
+    "price": {
+      "currency": "Currency",
+      "sign": "number",
+      "majorUnit": "string",
+      "minorUnit": "string"
+    }
+  },
+  "update_sell3": {
+    "sellerAvatarAddress": "Address",
+    "updateSellInfos": {
+      "orderId": "Guid",
+      "updateSellOrderId": "Guid",
+      "tradableId": "Guid",
+      "itemSubType": "\"Food\" | \"FullCostume\" | \"HairCostume\" | \"EarCostume\" | \"EyeCostume\" | \"TailCostume\" | \"Weapon\" | \"Armor\" | \"Belt\" | \"Necklace\" | \"Ring\" | \"EquipmentMaterial\" | \"FoodMaterial\" | \"MonsterPart\" | \"NormalMaterial\" | \"Hourglass\" | \"ApStone\" | \"Chest\" | \"Title\"",
+      "price": {
+        "currency": "Currency",
+        "sign": "number",
+        "majorUnit": "string",
+        "minorUnit": "string"
+      },
+      "__array": true
+    }
+  },
+  "update_sell4": {
+    "sellerAvatarAddress": "Address",
+    "updateSellInfos": {
+      "orderId": "Guid",
+      "updateSellOrderId": "Guid",
+      "tradableId": "Guid",
+      "itemSubType": "\"Food\" | \"FullCostume\" | \"HairCostume\" | \"EarCostume\" | \"EyeCostume\" | \"TailCostume\" | \"Weapon\" | \"Armor\" | \"Belt\" | \"Necklace\" | \"Ring\" | \"EquipmentMaterial\" | \"FoodMaterial\" | \"MonsterPart\" | \"NormalMaterial\" | \"Hourglass\" | \"ApStone\" | \"Chest\" | \"Title\"",
+      "price": {
+        "currency": "Currency",
+        "sign": "number",
+        "majorUnit": "string",
+        "minorUnit": "string"
+      },
+      "__array": true
+    }
+  },
+  "redeem_coupon": {
+    "couponId": "Guid",
+    "avatarAddress": "Address"
+  }
+}

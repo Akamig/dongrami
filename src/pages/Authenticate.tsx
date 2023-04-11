@@ -12,8 +12,8 @@ import {
 import { faFile } from '@fortawesome/free-regular-svg-icons';
 import { faKey } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { getAccountFromV3 } from '@planetarium/account-web';
 import { FormEvent, useEffect, useRef, useState } from 'react';
+import { getAccountFromV3 } from 'utils/account';
 import { useKeystore, useMainMutations, useMessage } from '../store/main';
 import { useWorker } from '../store/worker';
 import { readKeyFile } from '../worker/handlers';
@@ -79,7 +79,7 @@ export function AuthenticatePage() {
 
     try {
       const account = getAccountFromV3(keystore, passphrase);
-      setAccount(account, await account.getPublicKey());
+      setAccount(account, await account.getPublicKey(false));
     } catch (e: unknown) {
       setLoading(false);
 
@@ -115,11 +115,8 @@ export function AuthenticatePage() {
             type="text"
             readOnly
             value={keyFile ? keyFile.name : ''}
-            placeholder="Select a keyfile..."
-            onChange={() => {
-              void 0;
-            }}
-            onClick={() => inputFileRef.current && inputFileRef.current.click()}
+            placeholder="Select a key file..."
+            onClick={() => inputFileRef.current?.click()}
           />
         </InputGroup>
       </FormControl>

@@ -1,0 +1,40 @@
+{
+  "name": "lib9c-wasm",
+  "version": "0.0.2",
+  "description": "Lib9c WASM library",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "yarn clean-dotnet; yarn build-wrapper",
+    "compile": "yarn build; yarn tsc",
+    "prepare-pack": "yarn compile; rm -rf dist; mkdir dist; cp -r generated/*.{js,d.ts} README.md package.json dist",
+    "custom-pack": "pushd dist; npm pack; mv lib9c-wasm-*.tgz ..; popd",
+    "clean-dotnet": "rm -rf ./Lib9c.Wasm/bin/; dotnet publish",
+    "build-wrapper": "ts-node ./generate.ts",
+    "generate-docs": "yarn build; typedoc --out docs ./generated/*.ts --exclude generated/dotnet*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moreal/lib9c-wasm.git"
+  },
+  "author": "Moreal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moreal/lib9c-wasm/issues"
+  },
+  "homepage": "https://github.com/moreal/lib9c-wasm#readme",
+  "devDependencies": {
+    "@types/elliptic": "^6.4.14",
+    "@types/node": "^18.7.18",
+    "@types/uuid": "^8.3.4",
+    "elliptic": "^6.5.4",
+    "ts-node": "^10.9.1",
+    "typedoc": "^0.23.14",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@ethersproject/address": "^5.7.0",
+    "uuid": "^9.0.0"
+  },
+  "packageManager": "yarn@3.2.4"
+}

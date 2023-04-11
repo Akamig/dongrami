@@ -1,8 +1,8 @@
-import { Account } from '@planetarium/sign';
 import { create } from 'zustand';
 import { devtools, persist } from 'zustand/middleware';
 import { WorkerResultMessage } from '../types/message';
 import { Uint8ArrayToHex } from '../utils/Uint8Array';
+import { Account } from 'types/account';
 
 type MainState = {
   message: WorkerResultMessage | null;
